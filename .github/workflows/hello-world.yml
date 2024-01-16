@@ -28,7 +28,7 @@ jobs:
         run: composer install --ansi --no-interaction --no-progress
 
       - name: "Say Hello"
-        uses: ./actions/print
+        uses: ./.github/actions/print
         with:
           who-to-greet: Marine
 
